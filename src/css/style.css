@@ -21,3 +21,6 @@ Soyez attentifs à l'ordre d'import :
 
 /* Les règles de base */
 @import "../css/base/main.css";
+@import "../css/base/media.css"
+
+/* Les règles de composition */
