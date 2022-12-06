@@ -17,7 +17,7 @@ Soyez attentifs à l'ordre d'import :
 @import "../css/vendors/normalize.css";
 
 /* Utilitaires */
-@import "utils/variables.css";
+@import "../css/utilis/variables.css";
 
 /* Les règles de base */
-@import "base/main.css";
+@import "../css/base/main.css";
