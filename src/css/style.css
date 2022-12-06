@@ -8,7 +8,7 @@ Soyez attentifs à l'ordre d'import :
   3. Les variables (Utils)
   4. Les règles générales (Base)
   5. Les règles de composition (Layout)
-  6. Les composant d'interface (Components)
+  6. Les composants d'interface (Components)
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&family=Roboto+Serif:opsz@8..144&display=swap');
@@ -21,6 +21,17 @@ Soyez attentifs à l'ordre d'import :
 
 /* Les règles de base */
 @import "../css/base/main.css";
-@import "../css/base/media.css"
+@import "../css/base/media.css";
 
 /* Les règles de composition */
+@import "../css/layout/footer.css";
+@import "../css/layout/header.css";
+
+/* Les composants d'interface */
+@import "../css/components/button.css";
+@import "../css/components/card.css";
+@import "../css/components/carousel.css";
+@import "./components/hero.css";
+@import "./components/infos.css";
+@import "./components/menu.css";
+@import "./components/searchform.css";
