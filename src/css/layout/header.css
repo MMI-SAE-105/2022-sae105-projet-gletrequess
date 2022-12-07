@@ -14,21 +14,12 @@ Flex sert à positionner les éléments de l'en-tête (header__start et header__
     background-image: url(../../../public/img/Header/header.webp);
   }
   
-  .header__end {
-    display: flex;
-    gap: var(--space2x);
-  }
-  
-  .header__search {
-    width: 40px;
-    filter: invert();
-  }
-  
-  /* On annule le filtre d'inversion des couleurs lorsqu'on commence à scroller dans la page et que l'en-tête devient blanc */
-  .header--atTop .header__search {
-    filter: none;
-  }
-  
-  .header__logo {
-    display: block;
-  }
+.header_logo {
+    width: 20%;
+}
+
+.header_titre {
+  font-size: 22px;
+  letter-spacing: 10px;
+  font-family: roboto;
+}
