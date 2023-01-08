@@ -1,34 +1,198 @@
 .footer {
-    background-image: url(../../../public/img/Footer/image_fond.webp);
-    color: var(--gray-600);
-    padding: var(--space4x) var(--space3x);
-  }
-  
-  footer a {
-    color: var(--gray-400);
-    text-decoration: none;
-  }
-  
-  .footer__list {
-    display: flex;
-    gap: var(--space3x);
-  }
-  
-  .footer__list img {
-    filter: invert(60%);
-  }
-  
-  .footer__address {
-    font-style: normal;
-  }
-  
-  .footer__title {
-    margin-top: 0;
-    text-transform: uppercase;
-    font-size: var(--text-sm);
-    letter-spacing: var(--letter-spacing);
-  }
-  
-  .footer > *:not(:first-child) {
-    margin-top: var(--space3x);
-  }
+  align-items: center;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/636bc6acacaa92b2a38b5bc5/releases/63b984e96bdb50eddedaa854/img/property-1-default@2x.png);
+  background-position: 50% 50%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.informatif-footer {
+  align-items: flex-end;
+  align-self: flex-start;
+  display: flex;
+  gap: 32px;
+  height: 133px;
+  margin-left: 16px;
+  margin-top: 8px;
+  min-width: 225px;
+}
+
+.flex-col-1,
+.flex-col-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 133px;
+  width: 95px;
+}
+
+.informatif-flex-col {
+  color: #FF4040;;
+  height: 42px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  width: 95px;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.link-3 {
+  color: #FFFFFF;
+  cursor: pointer;
+  height: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 19px;
+  text-align: center;
+  width: 88px;
+}
+
+.link-2 {
+  color: #FFFFFF;
+  cursor: pointer;
+  height: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 8px;
+  text-align: center;
+  width: 88px;
+}
+
+.page-d-accueil .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  min-height: 83px;
+  width: 88px;
+}
+
+.link-4 {
+  color: #FFFFFF;
+  cursor: pointer;
+  height: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  width: 88px;
+}
+
+div{
+  font-family: 'Arima', cursive;
+}
+
+.projet-ralis-dans {
+  color: 
+#575757;
+  font-family: 'Arima';
+  font-size: 12px;
+  font-weight: 400;
+  height: 74px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1px;
+  margin-top: 20px;
+  text-align: center;
+  width: 218px;
+}
+
+.line-2-footer {
+  height: 1px;
+  margin-right: 1px;
+  margin-top: 7px;
+  object-fit: cover;
+  width: 342px;
+}
+
+.articles-footer {
+  align-items: flex-end;
+  align-self: flex-end;
+  display: flex;
+  height: 133px;
+  margin-right: 3px;
+  margin-top: 8px;
+  min-width: 356px;
+}
+
+.flex-col-3 {
+  margin-left: 32px;
+}
+
+.flex-col-4 {
+  margin-left: 39px;
+}
+
+.articles-flex-col {
+  color: #FF4040;
+  height: 42px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  width: 95px;
+}
+
+.line-3 {
+  height: 1px;
+  margin-right: 1px;
+  margin-top: 6px;
+  object-fit: cover;
+  width: 342px;
+  margin-bottom: auto;
+}
+
+.overlap-group7 {
+  align-self: flex-start;
+  height: 106px;
+  position: relative;
+  width: 360px;
+}
+
+.overlap-group6 {
+  height: 106px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 358px;
+}
+
+.logo-overlap-group6 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 106px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 106px;
+  position: absolute;
+  top: 0;
+}
+
+.logoby-pngtree_4032451-1 {
+  height: 106px;
+  object-fit: cover;
+  width: 105px;
+}
+
+.line-1-overlap-group6 {
+  height: 1px;
+  left: 16px;
+  object-fit: cover;
+  position: absolute;
+  top: 105px;
+  width: 342px;
+}
+
+.mmi_dut_white_png-1 {
+  height: 100px;
+  left: 270px;
+  object-fit: cover;
+  position: absolute;
+  top: 3px;
+  width: 90px;
+}

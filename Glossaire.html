@@ -9,23 +9,31 @@
     <!-- Importation x-collapse /!\ À IMPORTER AVANT ALPINE.JS /!\-->
     <script defer src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js%22%3E"></script>
     <!-- Importation Alpine.js /!\ À IMPORTE APRÈS X-COLLAPSE-->
-    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js%22%3E"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/base/main.css">
+    <link rel="stylesheet" href="src/css/base/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Arima:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 
 </head>
-<body>
-    <header>
 
-        <img src="../public/img/Header/header.webp" alt="Image de fond header"> <!-- Bannière du header -->
-        <a href="index.html"><img src="public/icones/logo.svg" alt="Logo Site"></a> <!-- Logo cliquable vers la homepage -->
-        <a href="index">N irceur</a> <!-- TItre cliquable vers la homepage -->
-        <a href="Menu.html"><img src="../public/icones/menu1.svg" alt="Icône menu burger"></a> <!-- Icône menu burger redirigeant vers le menu burger /!\ À TERMINER /!\ -->
-    
+<body>
+    <header class="header header_img">
+        <a class="header_logo" href="index.html"><img src="public/icones/logo.svg" alt="Logo Site"></a> <!-- Logo cliquable vers la homepage -->
+        <a href="./Glossaire_ENG.html" class="languebtn"><img src="./public/img/Header/france.webp" alt="Bouton FRANCE"></a>
+        <a href="./menu.html" class="menu_burger"><img src="./public/icones/menu2.svg" alt=""></a>
+        
 
 </header>
+<h1>Glossairy</h1>
 
-<h1>Glossaire</h1>
+<hr>
 
 <dl>
+
     <dt>Mutilé :</dt>
     <dd>Détérioration d’un membre organique</dd>
 
@@ -48,33 +56,65 @@
     <dd>Considéré comme une idée à part de ce que l'on perçoit</dd>
 </dl>
 
+<hr>
 
 <footer>
+    <div class="footer">
+    <div class="overlap-group7">
+      <div class="overlap-group6">
+        <a href="index.html"
+          ><div class="logo-overlap-group6">
+            <img
+              class="logoby-pngtree_4032451-1"
+              src="./public/icones/Logo.svg"
+              alt="Logoby Pngtree_4032451 1"
+            /></div></a
+        ><img class="line-1-overlap-group6" src="line-1-1.svg" alt="Line 1" />
+      </div>
+      <img class="mmi_dut_white_png-1" src="./public/icones/logommi.svg" alt="MMI_dut_white_png 1" />
+    </div>
+    <div class="articles-footer">
+      <div class="flex-col-1">
+        <div class="articles-flex-col valign-text-middle">Articles</div>
+        <div class="link-2 valign-text-middle robotocondensed-normal-white-15px">
+            <a href="./Seul_le_silence.html">Livre</a>
+          </div>          
+        <div class="link-3 valign-text-middle robotocondensed-normal-white-15px"><a href="./La_Bretagne.html">Lieu</a></div>
+      </div>
+      <div class="flex-col-3 flex-col">
+        <div class="link-4 valign-text-middle robotocondensed-normal-white-15px"><a href="./Die_Welle.html">Film</a></div>
+        <div class="link-4 valign-text-middle robotocondensed-normal-white-15px"><a href="./Les_secrets_de_la_psychologie.html">Espoir</a></div>
+      </div>
+      <div class="flex-col-4 flex-col">
+        <div class="link-4 valign-text-middle robotocondensed-normal-white-15px"><a href="./Shadow_of_mine.html">Musique</a></div>
+        <div class="link-4 valign-text-middle robotocondensed-normal-white-15px"><a href="./L'inconnu.html">Regret</a></div>
+      </div>
+    </div>
+    <img class="line-2-footer" src="line-1-1.svg" alt="Line 2" />
+    <div class="informatif-footer">
+      <div class="flex-col-2">
+        <div class="informatif-flex-col valign-text-middle">Informatif</div>
+        <div class="link-2 valign-text-middle"><a href="./À_propos.html">À propos</a></div>
+        <div class="link-3 valign-text-middle"><a href="./Glossaire.html">Glossaire</a></div>
+      </div>
+      <div class="flex-col">
+        <div class="link-4 valign-text-middle robotocondensed-normal-white-15px">
+            <a href="./Contact.html">Contact</a>
+          </div>
+          
+        <div class="link-4 valign-text-middle robotocondensed-normal-white-15px">
+            <a href="./autres_projets.html">Autres projets</a>
+          </div>
+          
+      </div>
+    </div>
 
-    <a href="index.html"><img src="public/icones/logo.svg" alt="Logo Site"></a> <!-- Logo cliquable dans le footer redirigeant vers la homepage -->
-    <a href="http://mmimontbeliard.com/"><img src="public/icones/logommi.svg" alt="Logo MMI"></a> <!-- Logo cliquable dans le footer redirigeant vers le site MMI Montbéliard -->
-    <img src="public/img/Footer/image_fond.webp" alt="Image fond du footer">
+    <img class="line-3" src="./public/icones/line-1-1.svg" alt="Line 3" />
 
-    
-<nav>
-        <ul>
-        Articles
-        <li> <a href="Seul_le_silence.html">Livre</a> </li> <!-- Lien dans le footer cliquable, redirection vers l'article Livre -->
-        <li> <a href="Die_Welle.html">Film</a> </li> <!-- Lien dans le footer cliquable, redirection vers l'article Film -->
-        <li> <a href="Shadow_of_mine.html">Musique</a> </li> <!-- Lien dans le footer cliquable, redirection vers l'article Musique -->
-        <li> <a href="La_Bretagne.html">Lieu</a> </li> <!-- Lien dans le footer cliquable, redirection vers l'article Lieu -->
-        <li> <a href="Les_secrets_de_la_psychologie.html">Espoir</a> </li> <!-- Lien dans le footer cliquable, redirection vers l'article Espoir -->
-        <li> <a href="L'inconnu.html">Regret</a> </li> <!-- Lien dans le footer cliquable, redirection vers l'article Regret -->
-    </ul>
-
-    <ul>
-        Informatif
-        <li> <a href="À_Propos.html">À Propos</a> <!-- Lien dans le footer cliquable, redirection vers la page À Propos --> </li>
-        <li> <a href="Contact.html">Contact</a> <!-- Lien dans le footer cliquable, redirection vers la page Contact --> </li>
-        <li> <a href="Glossaire.html">Glossaire</a> <!-- Lien dans le footer cliquable, redirection vers la page Glossaire --> </li>
-        <li> <a href="Autres_projets.html">Autres projets</a> <!-- Lien dans le footer cliquable, redirection vers la page Autres projets --> </li>
-    </ul>
-</nav>
+    <p class="projet-ralis-dans valign-text-middle">
+      Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard<br />-<br />Guillaume LE TREQUESSER
+    </p>
+  </div>
 </footer>
 </body>
 </html>

@@ -1,3 +1,33 @@
 img {
     width: 100%;
 }
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.img_article {
+    width: 70%;
+    border: 10px solid #FFFFFF;
+    display: block;
+    margin: 0 auto;
+}
+
+.img_frise {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.incline{
+    transform: rotate(2.52deg);
+}
+
+.incline2{
+    transform: rotate(-2.87deg);
+}
+
+.incline3{
+    transform: rotate(0.83deg);
+}

@@ -1,0 +1,36 @@
+.menu{
+    background-image: url(../../../public/img/Menu/fond_menu.webp);
+}
+
+.menu_lienarticle {
+    color: var(--blanc-menuheaderfooter);
+    font-size: 16px;
+    font-family: 'Arima', cursive;
+    display: flex;
+    gap: 7px;
+    line-height: 1.3rem;
+    margin-bottom: 15px;
+    text-decoration: none;
+  }
+
+.menu_titre, .menu_titrecolor {
+    padding: 10px;
+    margin-bottom: -5px;
+    font-size: 32px;
+    font-family: 'Arima', cursive;
+    text-transform: uppercase;
+}
+
+.menu_titre {
+    margin-top: 10px;
+    color: #09B1E5;
+}
+
+.menu_titrecolor {
+    color: #09B1E5;
+}
+
+.menu_icon {
+    width: 5%;
+    height: auto;
+  }

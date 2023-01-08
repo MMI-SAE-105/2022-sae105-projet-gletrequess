@@ -3,23 +3,59 @@ Flex sert à positionner les éléments de l'en-tête (header__start et header__
 */
 .header {
     position: fixed;
+    height: 80px;
     top: 0;
     left: 0;
+    right: 0;
+    z-index: 999;
     width: 100%;
-    z-index: 2;
-    padding: var(--space2x) var(--space3x);
+    padding-top: 0px;
     display: flex;
-    justify-content: space-between;
     transition: all .3s ease-in-out;
-    background-image: url(../../../public/img/Header/header.webp);
   }
   
 .header_logo {
+  position :absolute;
     width: 20%;
+    top: 4px;
+    left: 0px;
+    display: flex;
 }
 
-.header_titre {
-  font-size: 22px;
-  letter-spacing: 10px;
-  font-family: roboto;
+.header_img {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  background-image: url(../../../public/img/Header/header.webp);
+}
+
+.menu_burger {
+  position: absolute;
+  width: 15%;
+  top: 12px;
+  right:1px;
+  display: flex;
+}
+
+.languebtn {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 15px;
+    right: 65px;
+}
+
+.header_fond {
+  position: relative;
+  text-align: center;
+  top: 0;
+  left: 0;
+}
+
+.header_image {
+  position: absolute;
+  top: 145px;
+  left: 70px;
+  width: 246px;
+  height: 386px;
 }
