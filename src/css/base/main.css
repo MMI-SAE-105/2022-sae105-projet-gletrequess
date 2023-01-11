@@ -95,3 +95,9 @@ figcaption{
     font-family: 'Arima', cursive;
     text-align: center;
 }
+
+button{
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+}

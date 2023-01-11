@@ -1,6 +1,6 @@
 .footer {
   align-items: center;
-  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/636bc6acacaa92b2a38b5bc5/releases/63b984e96bdb50eddedaa854/img/property-1-default@2x.png);
+  background-image: url(../../../public/img/Footer/image_fond.webp);
   background-position: 50% 50%;
   display: flex;
   flex-direction: column;
