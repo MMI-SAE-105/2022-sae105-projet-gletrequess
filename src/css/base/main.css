@@ -34,6 +34,7 @@ p{
     font-size: var(--texte-body);
     font-family: 'Arima', cursive;
     padding: 10 px;
+    margin: 10px;
 }
 
 dt{
@@ -59,11 +60,14 @@ li.style{
 }
 
 a{
-    font-size: var(--texte-body)
-    color:none;
-    text-decoration-line: none;
+    font-size: var(--texte-body);
+    color: blue;
     text-decoration-style: none;
     text-decoration: none;
+}
+
+html{
+    overflow-x: hidden;
 }
 
 hr{

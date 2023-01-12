@@ -24,9 +24,29 @@
 
 <body>
     <header class="header header_img">
-        <a class="header_logo" href="index.html"><img src="public/icones/logo.svg" alt="Logo Site"></a> <!-- Logo cliquable vers la homepage -->
+        <a class="header_logo" href="index.html"><img src="public/icones/logo.svg" alt="Logo Site"></a>
         <a href="indexENG.html" class="languebtn"><img src="./public/img/Header/france.webp" alt="Bouton FRANCE"></a>
-        <a href="./menu.html" class="menu_burger"><img src="./public/icones/menu2.svg" alt=""></a>
+        <div x-data="{ open: false }">
+          <button @click="open = !open">         
+               <div class="nav-toggle" onclick="documentElement.classList.toggle('menu-open')">
+              <div class="nav-toggle-bar"></div>
+          </div></button>
+          <ul class="menu" x-show="open" @click.away="open = false" x-transition.opacity.duration.300ms>
+          <div class="position">
+            <h3>ARTICLES</h3>
+            <li><img src="./public/icones/book-open1.svg" alt="Icône de livre"><a href="./Seul_le_silence.html">Seul le Silence</a></li>
+            <li><img src="./public/icones/film1.svg" alt="Icône de film"><a href="./Die_Welle.html">Die Welle</a></li>
+            <li><img src="./public/icones/music1.svg" alt="Icône de note de musique"><a href="./Shadow_of_mine.html">Shadow of Mine</a></li>
+            <li><img src="./public/icones/compass1.svg" alt="Icône de boussole"><a href="./La_Bretagne.html">La Bretagne</a></li>
+            <li><img src="./public/icones/star1.svg" alt="Icône d'étoile"><a href="./Les_secrets_de_la_psychologie.html">Les secrets de la psychologie</a></li>
+            <li><img src="./public/icones/cloud-rain1.svg" alt="Icône de pluie"><a href="./L'inconnu.html">L'inconnu</a></li>
+
+            <h3>AUTRE</h3>
+            <li><img src="./public/icones/mail1.svg" alt="Icône de mail"><a href="./Contact.html">Contact</a></li>
+            <li><img src="./public/icones/book1.svg" alt="Icône de livre fermé"><a href="./Glossaire.html">Glossaire</a></li>
+          </div>
+          </ul>
+        </div>
         
 
 </header>
@@ -90,8 +110,6 @@
 
 <hr>
 
-</body>
-
 <footer>
     <div class="footer">
     <div class="overlap-group7">
@@ -150,4 +168,63 @@
     </p>
   </div>
 </footer>
+</html><footer>
+    <div class="footer">
+    <div class="overlap-group7">
+      <div class="overlap-group6">
+        <a href="index.html"
+          ><div class="logo-overlap-group6">
+            <img
+              class="logoby-pngtree_4032451-1"
+              src="./public/icones/Logo.svg"
+              alt="Logoby Pngtree_4032451 1"
+            /></div></a
+        ><img class="line-1-overlap-group6" src="line-1-1.svg" alt="Line 1" />
+      </div>
+      <img class="mmi_dut_white_png-1" src="./public/icones/logommi.svg" alt="MMI_dut_white_png 1" />
+    </div>
+    <div class="articles-footer">
+      <div class="flex-col-1">
+        <div class="articles-flex-col valign-text-middle">Articles</div>
+        <div class="link-2 valign-text-middle robotocondensed-normal-white-15px">
+            <a href="./Seul_le_silence.html">Livre</a>
+          </div>          
+        <div class="link-3 valign-text-middle robotocondensed-normal-white-15px"><a href="./La_Bretagne.html">Lieu</a></div>
+      </div>
+      <div class="flex-col-3 flex-col">
+        <div class="link-4 valign-text-middle robotocondensed-normal-white-15px"><a href="./Die_Welle.html">Film</a></div>
+        <div class="link-4 valign-text-middle robotocondensed-normal-white-15px"><a href="./Les_secrets_de_la_psychologie.html">Espoir</a></div>
+      </div>
+      <div class="flex-col-4 flex-col">
+        <div class="link-4 valign-text-middle robotocondensed-normal-white-15px"><a href="./Shadow_of_mine.html">Musique</a></div>
+        <div class="link-4 valign-text-middle robotocondensed-normal-white-15px"><a href="./L'inconnu.html">Regret</a></div>
+      </div>
+    </div>
+    <img class="line-2-footer" src="line-1-1.svg" alt="Line 2" />
+    <div class="informatif-footer">
+      <div class="flex-col-2">
+        <div class="informatif-flex-col valign-text-middle">Informatif</div>
+        <div class="link-2 valign-text-middle"><a href="./À_propos.html">À propos</a></div>
+        <div class="link-3 valign-text-middle"><a href="./Glossaire.html">Glossaire</a></div>
+      </div>
+      <div class="flex-col">
+        <div class="link-4 valign-text-middle robotocondensed-normal-white-15px">
+            <a href="./Contact.html">Contact</a>
+          </div>
+          
+        <div class="link-4 valign-text-middle robotocondensed-normal-white-15px">
+            <a href="./autres_projets.html">Autres projets</a>
+          </div>
+          
+      </div>
+    </div>
+
+    <img class="line-3" src="./public/icones/line-1-1.svg" alt="Line 3" />
+
+    <p class="projet-ralis-dans valign-text-middle">
+      Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard<br />-<br />Guillaume LE TREQUESSER
+    </p>
+  </div>
+</footer>
+</body>
 </html>

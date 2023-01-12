@@ -4,7 +4,14 @@
   background-position: 50% 50%;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  position: absolute;
+  width: 375px;
+  left: 0px;
+}
+
+footer a{
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .informatif-footer {

@@ -1,10 +1,10 @@
 .nav-toggle {
     background-color: var(--red);
-    margin: 8px 0;
+    margin: 17px 0;
     width: 30px;
     height: 30px;
     position:absolute;
-    right: 26px;
+    right: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,7 +16,7 @@
 .nav-toggle-bar::after
  {
     content: "";
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     width: 100%;
     height: 2px;
     position: absolute;
@@ -46,11 +46,11 @@
 
 .menu{
     position: fixed;
-    top: -16px;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../../../public/img/Menu/fond_menu.webp);
+    background-color: #f1f1f1;
     z-index: 999;
     position: fixed;
     display: flex;
@@ -72,22 +72,11 @@
 }
 
 .menu li{
-    font-size: 16px;
-    font-family: 'Arima', cursive;
-    display: flex;
-    gap: 7px;
-    line-height: 1.3rem;
-    margin-bottom: 15px;
+    font-size: 24px;
+    padding-top: -40px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
     text-decoration: none;
-}
-
-.menu a{
-    color: white;
-}
-
-.menu img{
-    width: 5%;
-    height: auto;
 }
 
 .menu li::after {
@@ -99,33 +88,3 @@
     border-bottom: 1px solid #ddd; /* add bottom border */
   }
 
-  .menu_titre {
-    margin-top: 10px;
-    color: #09B1E5;
-}
-
-.menu h3{
-    position: relative;
-    left: -40px;
-    padding: 10px;
-    margin-bottom: -5px;
-    font-size: 32px;
-    font-family: 'Arima', cursive;
-    text-transform: uppercase;
-    color: #09B1E5
-}
-
-.menu .position{
-    margin-bottom: 150px;
-}
-
-.menu_lienarticle {
-    color: var(--blanc-menuheaderfooter);
-    font-size: 16px;
-    font-family: 'Arima', cursive;
-    display: flex;
-    gap: 7px;
-    line-height: 1.3rem;
-    margin-bottom: 15px;
-    text-decoration: none;
-}
